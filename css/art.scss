@@ -644,25 +644,11 @@ figure.effect-3:hover img {
 // }
 
 #fineart {
-  .imagefeed p {
- font-size: 14pt;
- padding-left: 1%;
- padding-right: 1%;
- color: white;
- overflow: hidden;
-}
 
-.imagefeed h2{
- font-size: 24pt;
- padding-left: 1%;
- padding-right: 1%;
- color: $yellow;
-}
 .feedContainer {
   clear: both;
-  // margin-left: 10%;
-  // margin-right: 10%;
   margin-top: 2%;
+    margin-bottom: 2%;
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
@@ -671,7 +657,7 @@ figure.effect-3:hover img {
 .imagefeed {
  height: 290px;
  width: 25%;
- border: 2px solid white;
+padding: 2px;
  box-sizing: border-box;
  position: relative;
 }
@@ -682,30 +668,67 @@ figure.effect-3:hover img {
  object-fit: cover;
  opacity: none;
 }
-
-.image-hover {
-  position: absolute;
-  top: 0;
-  display: none;
-  z-index: 100;
-  overflow: hidden;
+.hero {
+  height: 600px;}
 }
 
-.imagefeed:hover .image-hover {
-  display: block;
-  background: rgba(0, 0, 0, .7);
-  width: 100%;
-  height: 100%;
+#photo {
+  .feedContainer {
+    clear: both;
+    margin-top: 2%;
+      margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .imagefeed {
+   height: 290px;
+   width: 25%;
+  padding: 2px;
+   box-sizing: border-box;
+   position: relative;
+  }
+
+  .imagefeed img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   opacity: none;
+  }
+  .hero {
+    height: 500px;}
+
 }
 
-.imagefeed:hover p {
-    margin-left: 5%;
-    margin-right: 5%;
-    // margin-bottom: 8%;
-      overflow: hidden;
-}
+#AT {
+  .feedContainer {
+    clear: both;
+    margin-top: 2%;
+      margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
 
-.imagefeed:hover h2 {
-  margin-bottom: 0;
-}
+  .imagefeed {
+   height: 290px;
+   width: 25%;
+  padding: 2px;
+   box-sizing: border-box;
+   position: relative;
+  }
+
+  .imagefeed img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   opacity: none;
+  }
+  .hero {
+    height: 1000px;}
+
+    p {
+      font-size: 17pt;
+    }
 }
